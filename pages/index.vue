@@ -76,6 +76,7 @@ export default {};
 
 .title-section {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -93,7 +94,7 @@ export default {};
 
 .title-section img {
   margin-left: 5px;
-  max-width: 500px;
+  max-width: 50%;
 }
 
 .intro-section {
@@ -123,11 +124,18 @@ export default {};
 
 .skillset-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .skills-section ul {
   margin: 30px auto;
-  flex: 1 0 auto;
+  overflow-wrap: break-word;
+}
+.skills-section img {
+  align-self: center;
+  margin-left: 10px;
+  max-width: 33.3%;
 }
 
 .skills-section li {
@@ -140,16 +148,18 @@ export default {};
 .outro-section {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin: 50px auto;
 }
 
 .outro-section img {
   align-self: center;
   margin-right: 10px;
+  max-width: 33%;
 }
 
 .outro-section h4 {
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 </style>
->

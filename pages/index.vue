@@ -47,9 +47,9 @@
       </div>
       <hr class="line-break" />
       <div class="outro-section">
-        <img src="../assets//karikatuur.png" alt="karikatuur portret" />
-        <div>
-          <h4>Contact me</h4>
+        <h4>Contact me</h4>
+        <div class="outro-container">
+          <img src="../assets//karikatuur.png" alt="karikatuur portret" />
           <p>
             Thank you for showing interest in my website. I hope you liked what
             you saw, because I had a lot of fun making this. My contact details
@@ -116,16 +116,16 @@ export default {};
   margin: auto;
 }
 
-.skills-section h4 {
-  text-align: left;
-  margin-bottom: 20;
-  margin-top: 10;
-}
-
 .skillset-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.skills-section h4 {
+  text-align: left;
+  margin-bottom: 20;
+  margin-top: 10;
 }
 
 .skills-section ul {
@@ -145,21 +145,31 @@ export default {};
   list-style-type: none;
 }
 
-.outro-section {
+.outro-container {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 50px auto;
+  justify-content: space-around;
+}
+
+.outro-section {
+  margin-bottom: 20px;
 }
 
 .outro-section img {
   align-self: center;
   margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   max-width: 33%;
 }
 
 .outro-section h4 {
-  margin-top: 15px;
-  margin-bottom: 5px;
+  text-align: left;
+  margin-bottom: 20;
+  margin-top: 10;
+}
+
+.outro-section p {
+  text-align: center;
 }
 </style>

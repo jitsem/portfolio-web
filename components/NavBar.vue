@@ -19,6 +19,7 @@ export default {};
 .top-bar {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 90%;
   margin: auto;
 }

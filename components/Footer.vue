@@ -1,8 +1,10 @@
 <template>
   <div>
-    <footer>
-      <div class="footer-content">
-        <div class="social-links">
+    <footer class="bg-blue-700 w-full">
+      <div
+        class="text-blue-100 mx-auto flex flex-col md:flex-row justify-center items-center"
+      >
+        <div class="ml-15">
           <a href="https://twitter.com/jitsem93" class="fab fa-twitter"></a>
           <a href="https://github.com/jitsem" class="fab fa-github"></a>
           <a
@@ -11,7 +13,7 @@
           ></a>
           <a href="mailto:info@jitsem.be" class="fa fa-envelope"></a>
         </div>
-        <p class="copyright"><em>&copy; jitsem 2020</em></p>
+        <p class="p-15 text-sm"><em>&copy; jitsem 2020</em></p>
       </div>
     </footer>
   </div>
@@ -23,30 +25,6 @@ export default {};
 
 <style scoped>
 @import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css");
-
-footer {
-  height: 2.5rem;
-  width: 100%;
-
-  background: #3d70b2;
-}
-
-.footer-content {
-  color: #ffffff;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-basis: 95%;
-}
-
-.social-links {
-  margin: 15 auto 0 auto;
-}
-
-.copyright {
-  padding: 15 15;
-  font-size: 10px;
-}
 
 .fa {
   margin: 5px 15px;

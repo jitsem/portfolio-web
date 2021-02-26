@@ -17,7 +17,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const blogs = await $content("blogs").fetch();
+    const blogs = await $content("blog").fetch();
 
     return {
       blogs,

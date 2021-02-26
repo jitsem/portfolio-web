@@ -1,8 +1,8 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-2 md:px-0">
     <div class="flex flex-col md:flex-row justify-around items-center my-12">
       <div class="md:px-10 py-4 md:py-0 flex-shrink-0">
-        <h1 class="text-4xl">Software Developer</h1>
+        <h1 class="text-4xl">Software Engineer</h1>
         <h2 class="text-2xl text-blue-700 text-center">
           Welcome to my website
         </h2>
@@ -33,7 +33,9 @@
     <hr class="border-2 border-double border-blue-900" />
     <div>
       <h4>My skills</h4>
-      <div class="flex flex-col md:flex-row justify-around items-center py-5">
+      <div
+        class="flex flex-col md:flex-row justify-around items-center py-5 text-xs md:text-base"
+      >
         <ul>
           <li class="list-none">
             <img class="inline" src="../assets/checkmark.svg" alt="checkmark" />
